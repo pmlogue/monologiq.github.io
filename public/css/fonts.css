@@ -1,0 +1,51 @@
+/**
+* @license
+*
+* Font Family: Erode
+* Designed by: Nikhil Ranganathan
+* URL: https://www.fontshare.com/fonts/erode
+* © 2025 Indian Type Foundry
+*
+* Erode Light 
+* Erode LightItalic 
+* Erode Regular 
+* Erode Italic 
+* Erode Medium 
+* Erode MediumItalic 
+* Erode Semibold 
+* Erode SemiboldItalic 
+* Erode Bold 
+* Erode BoldItalic 
+* Erode Variable (Variable font)
+* Erode VariableItalic (Variable font)
+
+*
+*/
+
+@font-face {
+	font-family: 'Erode-Regular';
+	src: url('../fonts/Erode-Regular.woff2') format('woff2'),
+		url('../fonts/Erode-Regular.woff') format('woff'),
+		url('../fonts/Erode-Regular.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Erode-Semibold';
+	src: url('../fonts/Erode-Semibold.woff2') format('woff2'),
+		url('../fonts/Erode-Semibold.woff') format('woff'),
+		url('../fonts/Erode-Semibold.ttf') format('truetype');
+	font-weight: 600;
+	font-display: swap;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Manrope';
+	src: url('../fonts/Manrope-Regular.ttf') format('truetype');
+	font-weight: 500;
+	font-display: swap;
+	font-style: normal;
+}

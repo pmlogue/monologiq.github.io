@@ -1,0 +1,109 @@
+:root {
+  --bg: #fbfbfb;
+  --fg: #202020;
+  --separator: #202020;
+  --link: #5e5e5e;
+  --link-hover: #958267;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: Manrope, sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  background-color: var(--bg);
+  color: var(--fg);
+}
+
+main {
+  height: 100%;
+  margin: 5%;
+}
+
+main div.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+hr {
+  border-color: var(--separator);
+  width: 100%;
+  z-index: 1;
+  max-width: 400px;
+}
+
+h1 {
+  font-family: "Erode-Semibold";
+  font-size: 32px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+h2 {
+  font-family: "Erode-Regular";
+  font-size: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.container {
+  position: relative;
+  margin-inline: 24px;
+}
+
+.container > object {
+  z-index: -1;
+  margin: 0 auto;
+  width: 90vw;
+  max-width: 50vh;
+}
+
+.links,
+.message {
+  margin: 1rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.link {
+  font-family: Manrope, sans-serif;
+  font-weight: 500;
+  color: var(--link);
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.link.disabled {
+  opacity: 0.9;
+  pointer-events: none;
+  text-decoration: line-through;
+}
+
+.link:hover {
+  color: var(--link-hover);
+  text-decoration: underline;
+}
+
+hr {
+  border: 0.5px solid var(--fg);
+  box-shadow: none;
+}
